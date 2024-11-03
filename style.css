@@ -1,20 +1,18 @@
-/* Global Styles */
 body {
     font-family: 'Lato', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #ffffff; /* Đặt background là màu trắng */
+    background-color: #ffffff;
 }
 
-/* Section 1 Styles */
 #section-one {
-    width: 100%;
-    max-width: 1440px;
+    width: 1440px;
+    height: 962px;
     margin: 0 auto;
     padding: 40px;
     text-align: center;
-    background-color: #ffffff; /* Màu trắng cho section 1 */
+    background-color: #ffffff;
 }
 
 #section-one h1 {
@@ -22,27 +20,32 @@ body {
     font-size: 40px;
     font-weight: 400;
     line-height: 54px;
-    text-align: center;
     color: #2C2A29;
-    margin-bottom: 40px;
+    margin: 0 auto 40px;
+    width: 1215px;
+    height: 54px;
 }
 
 .image-container {
     display: flex;
     justify-content: center;
     gap: 20px;
+    width: 1440px;
+    padding: 41px 0;
 }
 
 .image-container img {
     width: 379px;
     height: 617.89px;
-    border-radius: 16px 0px 0px 0px;
+    border-radius: 16px 0 0 0;
 }
 
 .description {
     max-width: 810px;
     margin: 40px auto;
     text-align: center;
+    height: auto;
+    padding: 0 20px;
 }
 
 .description p {
@@ -54,13 +57,12 @@ body {
     margin-bottom: 20px;
 }
 
-/* Section 2 Styles */
 #section-two {
-    width: 100%;
-    max-width: 1376px;
+    width: 1376px;
+    height: 1608px;
     margin: 40px auto;
     padding: 40px;
-    background-color: #ffffff; /* Màu trắng cho section 2 */
+    background-color: #ffffff;
 }
 
 #section-two .image-container {
@@ -73,5 +75,5 @@ body {
 #section-two .image-container img {
     width: 684px;
     height: 800px;
-    border-radius: 24px 0px 0px 0px;
+    border-radius: 24px 0 0 0;
 }
